@@ -4,11 +4,20 @@
   "description": "从零实现react",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint --ext .ts,.tsx,.js,.jsx --quiet ./packages",
+    "lint:fix": "eslint --ext .ts,.tsx,.js,.jsx --fix --quiet ./packages"
   },
   "keywords": [],
   "author": "lbuchiyu@gamil.com",
   "license": "ISC",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.49.0",
+    "@typescript-eslint/parser": "^5.49.0",
+    "eslint": "^8.33.0",
+    "eslint-config-standard-with-typescript": "^33.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "typescript": "^4.9.4"
   }
 }
