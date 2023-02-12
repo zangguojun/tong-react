@@ -1,0 +1,9 @@
+{
+  "name": "react-reconciler",
+  "version": "1.0.0",
+  "description": "react调度器",
+  "dependencies": {
+    "shared": "workspace:*"
+  },
+  "license": "ISC"
+}
